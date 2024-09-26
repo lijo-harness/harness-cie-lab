@@ -1,4 +1,4 @@
-From tomcat:8.0.51-jre8-alpine
+From tomcat:9.0.20-jre8-alpine
 
 RUN apk update && apk add --no-cache nmap && \
     apk update && \
